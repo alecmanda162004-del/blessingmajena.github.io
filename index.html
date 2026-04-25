@@ -3,147 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Blessing Majena - Data-driven Marketing Professional & Fashionista. Digital Marketing | Psychology | Creative Fashion">
-  <title>Blessing Majena | Marketing Professional & Fashionista</title>
+  <meta name="description" content="Blessing Majena - Digital Marketing & Makeup Artist | Data-driven Marketing Professional with Psychology background">
+  <title>Blessing Majena | Digital Marketing & Makeup Artist</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
+    :root {
+      --royal-blue: #0A2540;
+      --accent-blue: #1E40AF;
+    }
+    
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('images/a3.jpeg');
+      background: linear-gradient(rgba(10, 37, 64, 0.75), rgba(10, 37, 64, 0.85)), 
+                  url('./images/a8.jpeg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
     }
+
     .gallery img {
       transition: all 0.4s ease;
     }
     .gallery img:hover {
       transform: scale(1.08);
-      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3);
+      box-shadow: 0 25px 30px -10px rgba(30, 64, 175, 0.4);
+    }
+
+    .section-bg {
+      background-color: #0F172A;
     }
   </style>
 </head>
-<body class="bg-zinc-950 text-zinc-200 font-sans">
+<body class="bg-[#0A2540] text-slate-200 font-sans">
 
-  <!-- Hero Section with A3 -->
-  <header class="hero h-screen flex items-center justify-center text-center relative">
-    <div class="max-w-4xl mx-auto px-6">
-      <h1 class="text-7xl md:text-8xl font-bold tracking-tight mb-4">Blessing Majena</h1>
-      <p class="text-3xl md:text-4xl font-light text-rose-300 mb-8">Marketing Professional & Fashionista</p>
+  <!-- Hero Section with a8.jpeg -->
+  <header class="hero h-screen flex items-center justify-center text-center relative overflow-hidden">
+    <div class="max-w-5xl mx-auto px-6 z-10">
+      <h1 class="text-6xl md:text-8xl font-bold tracking-tighter mb-6 text-white">Blessing Majena</h1>
+      <p class="text-3xl md:text-4xl font-light text-sky-300 mb-10">Digital Marketing Professional & Makeup Artist</p>
+      
       <div class="flex justify-center gap-6 flex-wrap">
-        <a href="#about" class="px-8 py-4 bg-white text-black rounded-full font-medium hover:bg-rose-500 hover:text-white transition">About Me</a>
-        <a href="#gallery" class="px-8 py-4 border border-white rounded-full font-medium hover:bg-white hover:text-black transition">View My Fashion Work</a>
+        <a href="#about" 
+           class="px-10 py-4 bg-white text-[#0A2540] rounded-full font-semibold text-lg hover:bg-sky-400 hover:text-white transition-all duration-300">
+          About Me
+        </a>
+        <a href="#gallery" 
+           class="px-10 py-4 border-2 border-white text-white rounded-full font-semibold text-lg hover:bg-white hover:text-[#0A2540] transition-all duration-300">
+          View My Work
+        </a>
       </div>
     </div>
-    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-      <i class="fas fa-chevron-down text-4xl"></i>
+
+    <div class="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
+      <i class="fas fa-chevron-down text-4xl text-white/80"></i>
     </div>
   </header>
 
-  <!-- About / Resume Section -->
-  <section id="about" class="py-24 px-6 bg-zinc-900">
+  <!-- About / Professional Profile -->
+  <section id="about" class="py-24 px-6 section-bg">
     <div class="max-w-5xl mx-auto">
-      <h2 class="text-5xl font-bold text-center mb-12 text-rose-400">Professional Profile</h2>
+      <h2 class="text-5xl font-bold text-center mb-16 text-sky-400">Professional Profile</h2>
       
       <div class="prose prose-invert max-w-none text-lg leading-relaxed">
-        <h3 class="text-2xl font-semibold mb-4">Professional Summary</h3>
-        <p class="mb-10">
-          Data-driven marketing professional with a background in Psychology and 4 years of administrative and brand support experience. 
-          Trained in predictive analytics, CRM, web analytics, Marketing & AI, combining audience insight with data to drive measurable results.
+        <p class="mb-12 text-xl">
+          I am a digital marketing and marketing operations professional with a background in psychology and a focus on data-driven growth. 
+          Currently pursuing my MSc in Digital Marketing and Media in New York, I specialize in customer segmentation, CRM systems, 
+          marketing analytics, and performance tracking.
         </p>
 
-        <h3 class="text-2xl font-semibold mb-6">Education</h3>
-        <ul class="space-y-6 mb-12">
-          <li><strong>Yeshiva University, Katz School of Science and Health, New York, NY</strong><br>
-              Master of Science in Digital Marketing and Media, Expected May 2027</li>
-          <li><strong>University of Zimbabwe, Harare, Zimbabwe</strong><br>
-              Bachelor of Science Honors Degree in Psychology, August 2022</li>
+        <p class="mb-12">
+          I use behavioral insight to understand how customers make decisions and how brands can improve engagement, retention, and revenue. 
+          Over the past four years, I have supported brand and operations teams by optimizing workflows, implementing tracking systems, 
+          and improving internal marketing processes. Through targeted customer profiling and structured segmentation, I contributed to a 
+          <strong class="text-sky-400">40 percent increase in clientele</strong> and helped grow individual customer accounts from 200 to over 500 
+          while strengthening recurring revenue.
+        </p>
+
+        <p class="mb-12">
+          My technical strengths include HubSpot Marketing Hub, predictive analytics, CRM strategy, AI integration in marketing workflows, 
+          and data visualization. I focus on aligning data with clear business outcomes. 
+          I am particularly interested in growth, lifecycle marketing, and consumer behavior within <strong>fashion and lifestyle brands</strong>.
+        </p>
+
+        <h3 class="text-3xl font-semibold mt-16 mb-8 text-sky-400">Education</h3>
+        <ul class="space-y-8 mb-16">
+          <li>
+            <strong class="text-xl">Yeshiva University, Katz School of Science and Health, New York, NY</strong><br>
+            <span class="text-sky-300">Master of Science in Digital Marketing and Media, Expected May 2027</span>
+          </li>
+          <li>
+            <strong class="text-xl">University of Zimbabwe, Harare, Zimbabwe</strong><br>
+            <span class="text-sky-300">Bachelor of Science Honors Degree in Psychology, August 2022</span>
+          </li>
         </ul>
 
-        <h3 class="text-2xl font-semibold mb-6">Experience</h3>
-        <div class="space-y-12">
-          <div>
-            <div class="flex justify-between mb-3">
-              <strong>Instatoll Smart Infrastructure Solutions, Harare, Zimbabwe</strong>
-              <span class="text-zinc-400">Feb 2024 – Aug 2025</span>
+        <h3 class="text-3xl font-semibold mb-8 text-sky-400">Experience Highlights</h3>
+        <div class="grid md:grid-cols-2 gap-10">
+          <div class="bg-[#1E2937] p-8 rounded-3xl">
+            <div class="flex justify-between mb-4">
+              <strong>Instatoll Smart Infrastructure Solutions</strong>
+              <span class="text-sm text-slate-400">Feb 2024 – Aug 2025</span>
             </div>
-            <p class="italic text-rose-300">Administrator & Brand Marketing Assistant</p>
-            <ul class="list-disc pl-6 mt-3 space-y-2">
-              <li>Streamlined internal communication using Microsoft Teams (30% faster response)</li>
-              <li>Optimized procurement workflows with SAGE X3, preventing stock shortages</li>
-              <li>Redesigned client acquisition strategy → 40% increase in clientele</li>
-              <li>Secured B2B contracts with 10 banks in Harare</li>
-              <li>Grew B2C solar customers from 200 to over 500</li>
+            <p class="italic text-sky-300 mb-4">Administrator & Brand Marketing Assistant</p>
+            <ul class="list-disc pl-5 space-y-2 text-slate-300">
+              <li>Redesigned client acquisition strategy resulting in 40% increase in clientele</li>
+              <li>Grew B2C customers from 200 to over 500</li>
+              <li>Secured B2B contracts with major banks</li>
             </ul>
           </div>
 
-          <div>
-            <div class="flex justify-between mb-3">
-              <strong>KPMG Zimbabwe, Harare, Zimbabwe</strong>
-              <span class="text-zinc-400">Mar 2022 – Feb 2024</span>
+          <div class="bg-[#1E2937] p-8 rounded-3xl">
+            <div class="flex justify-between mb-4">
+              <strong>KPMG Zimbabwe</strong>
+              <span class="text-sm text-slate-400">Mar 2022 – Feb 2024</span>
             </div>
-            <p class="italic text-rose-300">Administrative Associate</p>
-            <ul class="list-disc pl-6 mt-3 space-y-2">
-              <li>Optimized digital filing → 35% faster document retrieval</li>
-              <li>Improved scheduling and coordination → 40% fewer conflicts</li>
+            <p class="italic text-sky-300 mb-4">Administrative Associate</p>
+            <ul class="list-disc pl-5 space-y-2 text-slate-300">
+              <li>Optimized digital filing and reporting processes</li>
+              <li>Improved cross-functional coordination and scheduling</li>
               <li>Enhanced data accuracy and reporting quality</li>
             </ul>
           </div>
         </div>
 
-        <h3 class="text-2xl font-semibold mt-16 mb-6">Key Skills</h3>
+        <h3 class="text-3xl font-semibold mt-20 mb-8 text-sky-400">Skills</h3>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">HubSpot</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Marketing Analytics</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Google AdWords & Analytics</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Adobe Analytics</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Predictive Analytics</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Artificial Intelligence</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Machine Learning</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Statistical Modelling</div>
-          <div class="bg-zinc-800 p-5 rounded-2xl text-center">Data Visualisation</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">HubSpot Marketing Hub</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">Customer Segmentation</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">Marketing Analytics</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">CRM Strategy</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">Predictive Analytics</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">Data Visualization</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">AI in Marketing</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">Consumer Behavior</div>
+          <div class="bg-[#1E2937] p-6 rounded-2xl text-center">Lifecycle Marketing</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Gallery Section -->
-  <section id="gallery" class="py-24 px-6 bg-black">
+  <!-- Gallery Section - a1 to a7 -->
+  <section id="gallery" class="py-24 px-6 bg-[#0A2540]">
     <div class="max-w-7xl mx-auto">
-      <h2 class="text-5xl font-bold text-center mb-4">My Creative World</h2>
-      <p class="text-center text-zinc-400 text-xl mb-16">Fashion • Lifestyle • Brand Stories</p>
+      <h2 class="text-5xl font-bold text-center mb-4 text-white">My Creative World</h2>
+      <p class="text-center text-sky-300 text-xl mb-16">Makeup Artistry • Fashion • Brand Stories</p>
       
       <div class="gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <img src="images/a1.jpeg" alt="Fashion Look 1" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a2.jpeg" alt="Fashion Look 2" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a3.jpeg" alt="Fashion Look 3" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a4.jpeg" alt="Fashion Look 4" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a5.jpeg" alt="Fashion Look 5" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a6.jpeg" alt="Fashion Look 6" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a7.jpeg" alt="Fashion Look 7" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a8.jpeg" alt="Fashion Look 8" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a9.jpeg" alt="Fashion Look 9" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a10.jpeg" alt="Fashion Look 10" class="w-full aspect-square object-cover rounded-3xl">
-        <img src="images/a11.jpeg" alt="Fashion Look 11" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a1.jpeg" alt="Makeup Look 1" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a2.jpeg" alt="Makeup Look 2" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a3.jpeg" alt="Makeup Look 3" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a4.jpeg" alt="Makeup Look 4" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a5.jpeg" alt="Makeup Look 5" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a6.jpeg" alt="Makeup Look 6" class="w-full aspect-square object-cover rounded-3xl">
+        <img src="./images/a7.jpeg" alt="Makeup Look 7" class="w-full aspect-square object-cover rounded-3xl">
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section class="py-24 px-6 bg-zinc-900 text-center">
+  <section class="py-24 px-6 bg-[#1E2937] text-center">
     <div class="max-w-md mx-auto">
-      <h2 class="text-4xl font-bold mb-8">Let's Connect</h2>
-      <p class="text-2xl mb-3">New York, NY</p>
-      <p class="text-xl mb-3">551-689-7073</p>
-      <p class="text-xl mb-8">bmajena@mail.yu.edu</p>
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="inline-flex items-center gap-3 text-rose-400 hover:text-rose-300 text-lg">
-        <i class="fab fa-linkedin text-2xl"></i> View LinkedIn
+      <h2 class="text-4xl font-bold mb-10 text-sky-400">Let's Connect</h2>
+      <p class="text-2xl mb-4">New York, NY</p>
+      <p class="text-xl mb-4">551-689-7073</p>
+      <p class="text-xl mb-8">majenab99@gmail.com</p>
+      
+      <a href="http://www.linkedin.com/in/blessingmajena16" target="_blank" 
+         class="inline-flex items-center gap-3 bg-sky-600 hover:bg-sky-500 px-8 py-4 rounded-full text-lg font-medium transition">
+        <i class="fab fa-linkedin text-2xl"></i>
+        Connect on LinkedIn
       </a>
     </div>
   </section>
 
-  <footer class="py-12 text-center text-zinc-500 text-sm border-t border-zinc-800">
-    © 2026 Blessing Majena • Marketing Professional & Fashionista
+  <footer class="py-12 text-center text-slate-400 text-sm bg-[#0A2540]">
+    © 2026 Blessing Majena • Digital Marketing Professional & Makeup Artist
   </footer>
 
 </body>
